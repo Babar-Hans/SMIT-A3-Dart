@@ -5,7 +5,13 @@ void main(){
     "name": "Babar",
     "age": 25,
     "isStudent": true
+};
+if(person['age']>18 && person['isStudent'] ==true){
+  print("-------------------");
+  print("Eligible");
+  print("-------------------");
+}else{
+  print("Person Not Eligible");
 }
-
 
 }
