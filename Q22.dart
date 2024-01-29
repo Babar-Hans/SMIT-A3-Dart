@@ -12,11 +12,15 @@ void main(){
   print("$k"));
   print("-------------");
   if(shoppingCart.containsKey("Apple")){
-    print("Product Fond");
+    print("Product Found");
     print("-------------");
 
   }else{
     print("Product Not Found");
         print("-------------");
   }
+
 }
+
+
+
