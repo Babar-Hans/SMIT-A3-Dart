@@ -10,7 +10,13 @@ void main(){
   
   shoppingCart.forEach((k,v)=>
   print("$k"));
-  if(shoppingCart == "Apple"){
-    print("fond");
+  print("-------------");
+  if(shoppingCart.containsKey("Apple")){
+    print("Product Fond");
+    print("-------------");
+
+  }else{
+    print("Product Not Found");
+        print("-------------");
   }
 }
